@@ -83,8 +83,8 @@
   }
 
   .expand-text:hover {
-    letter-spacing: 10px;
-    color: #8e44ad;
+    letter-spacing: 20px;
+    color: #0fdc00;
   }
 
   /* Interactive */
@@ -94,8 +94,6 @@
     font-size: 18px;
     background-color: #000101;
     color: white;
-    border: none;
-
     cursor: pointer;
     transition-property: background-color, transform, box-shadow;
     transition-duration: 0.3s;
@@ -115,4 +113,8 @@
     background-color: #0e6655;
     transform: translateY(0);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  body{
+    margin: 40px;
   }
